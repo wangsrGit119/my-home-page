@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>suke - 全栈开发工程师</title>
+    <link rel="stylesheet" href="static/css/animate.min.css">
+    <link rel="stylesheet" href="static/css/custom.css">
+</head>
+<body>
+    <nav class="animate__animated animate__slideInDown">
+        <div class="nav-content">
+            <div class="logo">Suke</div>
+            <button onclick="toggleTheme()" id="theme-toggle">🌙</button>
+        </div>
+    </nav>
+    
+    <main class="main-container">
+        <!-- 左侧个人信息 -->
+        <aside class="profile-section animate__animated animate__fadeInLeft">
+            <div class="profile-card">
+                <div class="avatar">
+                    <img src="./static/images/avatar.jpg" alt="头像" />
+                </div>
+                <h1>Suke</h1>
+                <p class="subtitle">全栈开发工程师 · 技术爱好者</p>
+                
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <a href="mailto:suke@webrtc.link">📧 suke@webrtc.link</a>
+                    </div>
+                    <div class="contact-item">
+                        <a href="https://github.com/wangsrGit119" target="_blank">🔗 GitHub</a>
+                    </div>
+                    <div class="contact-item">
+                        <a href="https://juejin.cn/user/404227777640397" target="_blank">📝 Blog</a>
+                    </div>
+                    <div class="wechat-info">
+                        <span>💬 微信神秘代码</span>
+                        <img src="static/images/wechat.png" alt="微信">
+                        <code>c3VjZnVmdWZ1NjIwMTE5</code>
+                    </div>
+                </div>
+                
+                <blockquote class="intro">
+                    👋 Hi, I'm suke. 开放技术交流，欢迎项目合作！
+                </blockquote>
+            </div>
+        </aside>
+
+        <!-- 右侧技能和项目 -->
+        <main class="content-section animate__animated animate__fadeInRight">
+            <!-- 技能栈 -->
+            <section class="skills-section">
+                <h2>🚀 技能栈</h2>
+                <div class="skills-grid">
+                    <div class="skill-item animate__animated animate__fadeInUp" style="animation-delay: 0.1s">
+                        <div class="skill-header">
+                            <img src="static/images/application.png" alt="Java">
+                            <div>
+                                <h3>Java 后端</h3>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="95"></div>
+                                    <span>95%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p>Java、golang、python · 微服务架构 · 数据分析</p>
+                    </div>
+
+                    <div class="skill-item animate__animated animate__fadeInUp" style="animation-delay: 0.2s">
+                        <div class="skill-header">
+                            <img src="static/images/CodeSandbox.png" alt="前端">
+                            <div>
+                                <h3>前端技术</h3>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="85"></div>
+                                    <span>85%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p>Vue 2、3、JavaScript· Electron · 组件化开发</p>
+                    </div>
+
+                    <div class="skill-item animate__animated animate__fadeInUp" style="animation-delay: 0.3s">
+                        <div class="skill-header">
+                            <img src="static/images/meeting.png" alt="音视频">
+                            <div>
+                                <h3>音视频技术</h3>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="85"></div>
+                                    <span>85%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p>WebRTC, FFmpeg · 实时通信 · 流媒体</p>
+                    </div>
+
+                    <div class="skill-item animate__animated animate__fadeInUp" style="animation-delay: 0.4s">
+                        <div class="skill-header">
+                            <img src="static/images/course.png" alt="AI">
+                            <div>
+                                <h3>大模型 & AI</h3>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="78"></div>
+                                    <span>78%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p>LLM私有化部署 · Agent开发 · 提示工程 · 模型微调</p>
+                    </div>
+
+                    <div class="skill-item animate__animated animate__fadeInUp" style="animation-delay: 0.5s">
+                        <div class="skill-header">
+                            <img src="static/images/tools.png" alt="DevOps">
+                            <div>
+                                <h3>DevOps & 运维</h3>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="80"></div>
+                                    <span>80%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p>Docker, K8s, CI/CD · 脚本&自动化部署</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 精选项目 -->
+            <section class="projects-section">
+                <h2>💼 精选项目</h2>
+                <div class="projects-grid">
+                    <div class="project-item animate__animated animate__fadeInUp" style="animation-delay: 0.6s">
+                        <div class="project-header">
+                            <img src="static/images/meeting.png" alt="会议">
+                            <h3>视频会议系统</h3>
+                        </div>
+                        <p class="tech-stack">Node + Vue.js + WebRTC</p>
+                        <p class="description">实时音视频通信平台</p>
+                        <div class="project-links">
+                            <a href="https://github.com/wangsrGit119/suke-webrtc-course" target="_blank">📖 课程地址</a>
+                        </div>
+                        <div class="tags">低延迟 · 私有化 · 跨平台</div>
+                    </div>
+
+                    <div class="project-item animate__animated animate__fadeInUp" style="animation-delay: 0.7s">
+                        <div class="project-header">
+                            <img src="static/images/document.png" alt="网关">
+                            <h3>Janus WebRTC Gateway</h3>
+                        </div>
+                        <p class="tech-stack">企业级WebRTC网关</p>
+                        <p class="description">Janus容器版本 支持多平台</p>
+                        <div class="project-links">
+                            <a href="https://github.com/wangsrGit119/janus-webrtc-gateway-docker" target="_blank">🚀 项目地址</a>
+                        </div>
+                        <div class="tags">Janus · WebRTC · Docker</div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </main>
+
+    <!-- 底部备案信息 -->
+    <footer class="footer">
+        <div class="footer-content">
+            <a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank">蜀ICP备2024088073号</a>
+        </div>
+    </footer>
+
+    <script>
+        function toggleTheme() {
+            document.documentElement.classList.toggle('dark');
+            const isDark = document.documentElement.classList.contains('dark');
+            document.getElementById('theme-toggle').textContent = isDark ? '☀️' : '🌙';
+            localStorage.setItem('theme', isDark ? 'dark' : 'light');
+        }
+
+        // 初始化主题 - 默认暗黑模式
+        if (localStorage.getItem('theme') === 'light') {
+            // 只有明确设置为 light 才使用浅色模式
+            document.getElementById('theme-toggle').textContent = '🌙';
+        } else {
+            // 默认使用暗黑模式
+            document.documentElement.classList.add('dark');
+            document.getElementById('theme-toggle').textContent = '☀️';
+            localStorage.setItem('theme', 'dark');
+        }
+
+        // 技能条动画
+        window.addEventListener('load', () => {
+            setTimeout(() => {
+                document.querySelectorAll('.skill-progress').forEach(bar => {
+                    const width = bar.dataset.width;
+                    bar.style.width = width + '%';
+                });
+            }, 1000);
+        });
+    </script>
+</body>
+</html>
