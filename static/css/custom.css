@@ -456,7 +456,7 @@ h2::after {
 }
 
 .dark .project-links a {
-    background: linear-gradient(135deg, #60a5fa, #a78bfa);
+    background: linear-gradient(135deg, #e3e7ec, #e0dbf1);
 }
 
 .tags {
