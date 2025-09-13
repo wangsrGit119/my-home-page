@@ -234,7 +234,8 @@ nav {
 }
 
 .skills-section, .projects-section {
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
+    margin-top:2rem;
 }
 
 h2 {
